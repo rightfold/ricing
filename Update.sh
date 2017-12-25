@@ -13,6 +13,7 @@ fi
 
 # Clean up the repository before repopulating it.
 rm -rf "$PWD/etc"
+rm -rf "$PWD/home"
 
 # Copy the sudoers file using cat. This is explicitly allowed without password
 # through a line in the sudoers file.
@@ -24,3 +25,7 @@ mkdir -p "$PWD/etc/portage"
 mkdir -p "$PWD/etc/portage/repos.conf"
 cp /etc/portage/{make.conf,package.{accept_keywords,mask,use}} "$PWD/etc/portage"
 cp /etc/portage/repos.conf/rightfold-overlay.conf "$PWD/etc/portage/repos.conf"
+
+# Copy the X configuration.
+mkdir -p "$PWD/home/r"
+cp /home/r/.xinitrc "$PWD/home/r"
