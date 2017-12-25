@@ -1,0 +1,10 @@
+root ALL=(ALL) ALL
+%wheel ALL=(ALL) ALL
+
+# This is necessary to make the shared clipboard work.
+%wheel ALL=(root) NOPASSWD: /usr/bin/VBoxClient-all
+
+# There is nothing sensitive in the sudoers file, so we can just publish it.
+# However, I prefer not to fiddle with the sudoers file permissions, so just
+# allow reading it with cat.
+%wheel ALL=(root) NOPASSWD: /bin/cat /etc/sudoers
