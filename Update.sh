@@ -18,3 +18,9 @@ rm -rf "$PWD/etc"
 # through a line in the sudoers file.
 mkdir -p "$PWD/etc"
 sudo cat /etc/sudoers > "$PWD/etc/sudoers"
+
+# Copy the Portage configuration.
+mkdir -p "$PWD/etc/portage"
+mkdir -p "$PWD/etc/portage/repos.conf"
+cp /etc/portage/{make.conf,package.{accept_keywords,mask,use}} "$PWD/etc/portage"
+cp /etc/portage/repos.conf/rightfold-overlay.conf "$PWD/etc/portage/repos.conf"
