@@ -4,6 +4,7 @@ app-editors/emacs X xft
 app-emacs/emacs-common-gentoo X
 app-emulation/virtualbox-guest-additions X
 dev-db/postgresql uuid
+dev-lang/dmd -selfhost
 dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres xmlwriter
 dev-php/composer git
 dev-vcs/git -gpg -perl -python
