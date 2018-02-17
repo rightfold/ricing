@@ -29,3 +29,4 @@ cp /etc/portage/repos.conf/rightfold-overlay.conf "$PWD/etc/portage/repos.conf"
 # Copy the X configuration.
 mkdir -p "$PWD/home/r"
 cp /home/r/.xinitrc "$PWD/home/r"
+cp /home/r/.Xresources "$PWD/home/r"
