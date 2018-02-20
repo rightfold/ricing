@@ -30,3 +30,7 @@ cp /etc/portage/repos.conf/rightfold-overlay.conf "$PWD/etc/portage/repos.conf"
 mkdir -p "$PWD/home/r"
 cp /home/r/.xinitrc "$PWD/home/r"
 cp /home/r/.Xresources "$PWD/home/r"
+
+# Copy the OpenLDAP configuration.
+mkdir -p "$PWD/etc/openldap"
+cp /etc/openldap/slapd.conf "$PWD/etc/openldap"

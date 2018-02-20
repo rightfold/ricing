@@ -1,0 +1,4 @@
+dn: dc=r-gentoo
+objectClass: dcObject
+objectClass: organization
+o: r-gentoo
