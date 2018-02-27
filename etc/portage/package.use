@@ -8,6 +8,7 @@ dev-lang/dmd -selfhost
 dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres xmlwriter
 dev-php/composer git
 dev-vcs/git -gpg -perl -python
+media-gfx/blender -bullet -dds -elbeem -game-engine cycles tiff openimageio
 media-libs/imlib2 X jpeg png
 media-libs/libsdl2 -joystick X opengl
 media-libs/mesa -llvm

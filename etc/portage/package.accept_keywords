@@ -1,2 +1,4 @@
 =dev-lang/gnu-cobol-2.2 ~amd64
 =dev-php/composer-1.5.6 ~amd64
+=media-gfx/blender-2.79-r1 ~amd64
+=media-libs/openimageio-1.8.7 ~amd64
