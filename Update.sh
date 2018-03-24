@@ -30,3 +30,7 @@ cp /etc/portage/repos.conf/rightfold-overlay.conf "$PWD/etc/portage/repos.conf"
 mkdir -p "$PWD/home/r"
 cp /home/r/.xinitrc "$PWD/home/r"
 cp /home/r/.Xresources "$PWD/home/r"
+
+# Copy the Nginx configuration.
+mkdir -p "$PWD/etc/nginx"
+cp /etc/nginx/nginx.conf "$PWD/etc/nginx"
