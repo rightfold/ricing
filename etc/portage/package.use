@@ -4,7 +4,8 @@ app-editors/emacs X xft
 app-emacs/emacs-common-gentoo X
 app-emulation/virtualbox-guest-additions X
 dev-db/postgresql uuid
-dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres xmlwriter
+dev-lang/lua -deprecated
+dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres sockets xmlwriter
 dev-php/composer git
 dev-vcs/git -gpg -perl -python
 media-gfx/blender -bullet -dds -elbeem -game-engine cycles tiff openimageio
@@ -15,6 +16,7 @@ media-libs/sdl2-image png
 net-misc/iputils -caps -filecaps
 sys-boot/grub:2 device-mapper -fonts -themes
 sys-devel/gdb -python -server
+sys-libs/ncurses tinfo
 sys-process/cronie anacron
 x11-libs/cairo X xcb
 x11-libs/libxcb xkb

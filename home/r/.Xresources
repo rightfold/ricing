@@ -1,6 +1,6 @@
 URxvt.depth:32
-URxvt.background:rgba:0000/0000/0000/d800
-URxvt.foreground:#b2b2b2
+URxvt.background:rgba:1e00/1e00/2700/d800
+URxvt.foreground:#ff8bff
 URxvt.color0: #2E3436
 URxvt.color1: #a40000
 URxvt.color2: #4E9A06
