@@ -47,3 +47,7 @@ cp /etc/nginx/nginx.conf "$PWD/etc/nginx"
 # Copy the GTK+ configuration.
 mkdir -p "$PWD/home/r/.config/gtk-3.0"
 cp /home/r/.config/gtk-3.0/settings.ini "$PWD/home/r/.config/gtk-3.0"
+
+# Copy the Z shell customization.
+mkdir -p "$PWD/home/r/.oh-my-zsh"
+cp -R /home/r/.oh-my-zsh/custom "$PWD/home/r/.oh-my-zsh"
