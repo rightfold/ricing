@@ -6,6 +6,7 @@
 # The latest supported app-emulation/virtualbox-guest-additions
 # version does not build with these kernel versions.
 >=sys-kernel/gentoo-sources-4.14.0
+>=app-emulation/virtualbox-guest-additions-5.1.26
 
 # Fuck this piece of shit
 net-libs/nodejs
