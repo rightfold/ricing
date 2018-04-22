@@ -32,7 +32,6 @@ sys-devel/gdb
 sys-fs/ncdu
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.9.76-r1
 sys-kernel/linux-firmware
 sys-libs/ncurses:5
 sys-process/cronie
