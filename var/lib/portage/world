@@ -22,6 +22,8 @@ dev-util/meld
 dev-vcs/git
 dev-vcs/tig
 media-gfx/feh
+media-libs/glfw
+media-libs/glm
 media-libs/imlib2
 net-misc/dhcpcd
 net-misc/netifrc

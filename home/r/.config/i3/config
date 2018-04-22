@@ -15,7 +15,7 @@ floating_modifier $mod
 new_window 1pixel
 
 # enable compositor
-exec compton
+exec --no-startup-id compton -c -f -D 3
 
 # start a terminal
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
