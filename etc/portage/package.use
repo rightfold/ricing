@@ -6,13 +6,12 @@ app-emulation/virtualbox-guest-additions X
 dev-db/postgresql uuid
 dev-lang/lua -deprecated
 dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres sockets xmlwriter
+dev-libs/glib dbus
+dev-libs/libxml2 python
 dev-php/composer git
 dev-vcs/git -gpg -perl -python
-media-gfx/blender -bullet -dds -elbeem -game-engine cycles tiff openimageio
 media-libs/imlib2 X jpeg png
-media-libs/libsdl2 -joystick X opengl
 media-libs/mesa -llvm
-media-libs/sdl2-image png
 net-misc/iputils -caps -filecaps
 sys-boot/grub:2 device-mapper -fonts -themes
 sys-devel/gdb -python -server
