@@ -43,3 +43,7 @@ cp /home/r/.config/i3status/config "$PWD/home/r/.config/i3status"
 # Copy the Nginx configuration.
 mkdir -p "$PWD/etc/nginx"
 cp /etc/nginx/nginx.conf "$PWD/etc/nginx"
+
+# Copy the GTK+ configuration.
+mkdir -p "$PWD/home/r/.config/gtk-3.0"
+cp /home/r/.config/gtk-3.0/settings.ini "$PWD/home/r/.config/gtk-3.0"
