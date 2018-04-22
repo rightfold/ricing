@@ -6,7 +6,7 @@ set -e
 # current workstation configuration.
 
 # Check that we do not accidentally overwrite anything important.
-if [ "$PWD" != '/home/r/workstation-configuration' ]; then
+if [ "$PWD" != '/home/r/ricing' ]; then
 	echo 'This script must be run from the repository root!' >> /dev/stderr
 	exit 1
 fi
