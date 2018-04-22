@@ -2,7 +2,6 @@ app-admin/sudo
 app-admin/sysklogd
 app-editors/emacs
 app-editors/vim
-app-emulation/virtualbox-guest-additions
 app-misc/mc
 app-misc/screenfetch
 app-portage/gentoolkit
@@ -12,6 +11,7 @@ app-shells/zsh
 app-text/docbook-xsl-stylesheets
 app-text/tree
 dev-db/postgresql
+dev-lang/erlang
 dev-lang/gnu-cobol
 dev-lang/php
 dev-lang/rust
@@ -29,14 +29,17 @@ net-misc/dhcpcd
 net-misc/netifrc
 sys-boot/grub:2
 sys-devel/gdb
+sys-fs/ncdu
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
+sys-kernel/gentoo-sources:4.9.76-r1
 sys-kernel/linux-firmware
 sys-libs/ncurses:5
 sys-process/cronie
 sys-process/htop
 www-servers/nginx
 x11-apps/mesa-progs
+x11-base/xorg-drivers
 x11-misc/compton
 x11-misc/dmenu
 x11-misc/i3status
