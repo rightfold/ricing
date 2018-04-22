@@ -1,0 +1,3 @@
+#!/bin/bash
+set -o errexit
+dmenu -i -l 8 -p '>' -fn 'Fixedsys Excelsior 3.01' -sb '#ff8bff' -sf '#1e1e27' -nb '#1e1e27' -nf '#409090'
