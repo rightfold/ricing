@@ -51,3 +51,8 @@ cp /home/r/.config/gtk-3.0/settings.ini "$PWD/home/r/.config/gtk-3.0"
 # Copy the Z shell customization.
 mkdir -p "$PWD/home/r/.oh-my-zsh"
 cp -R /home/r/.oh-my-zsh/custom "$PWD/home/r/.oh-my-zsh"
+
+# Copy the Midnight Commander customization.
+mkdir -p "$PWD/home/r/.config/mc"
+cp /home/r/.config/mc/ini "$PWD/home/r/.config/mc/ini"
+cp /home/r/.config/mc/panels.ini "$PWD/home/r/.config/mc/panels.ini"
