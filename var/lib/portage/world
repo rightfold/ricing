@@ -4,6 +4,7 @@ app-editors/emacs
 app-editors/vim
 app-misc/mc
 app-misc/screenfetch
+app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-portage/repoman
