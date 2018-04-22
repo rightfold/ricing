@@ -155,3 +155,6 @@ bar {
 		separator  $color_bright
 	}
 }
+
+# gaps
+gaps inner 8
