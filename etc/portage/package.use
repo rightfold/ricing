@@ -23,4 +23,3 @@ x11-libs/libxkbcommon X
 x11-libs/pango X
 x11-misc/compton dbus
 x11-terms/rxvt-unicode 256-color blink iso14755 unicode3 xft -font-styles -perl
-dev-lang/erlang dirty-schedulers hipe smp

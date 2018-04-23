@@ -12,7 +12,6 @@ app-shells/zsh
 app-text/docbook-xsl-stylesheets
 app-text/tree
 dev-db/postgresql
-dev-lang/erlang
 dev-lang/gnu-cobol
 dev-lang/php
 dev-lang/rust
