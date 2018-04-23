@@ -1,7 +1,8 @@
 root ALL=(ALL) ALL
 %wheel ALL=(ALL) ALL
 
-# There is nothing sensitive in the sudoers file, so we can just publish it.
-# However, I prefer not to fiddle with the sudoers file permissions, so just
-# allow reading it with cat.
+# There is nothing sensitive in these files, so we can just publish them.
+# However, I prefer not to fiddle with their file permissions, so just allow
+# reading it with cat.
+%wheel ALL=(root) NOPASSWD: /bin/cat /etc/ssh/sshd_config
 %wheel ALL=(root) NOPASSWD: /bin/cat /etc/sudoers

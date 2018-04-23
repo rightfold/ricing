@@ -52,7 +52,11 @@ cp /home/r/.config/gtk-3.0/settings.ini "$PWD/home/r/.config/gtk-3.0"
 mkdir -p "$PWD/home/r/.oh-my-zsh"
 cp -R /home/r/.oh-my-zsh/custom "$PWD/home/r/.oh-my-zsh"
 
-# Copy the Midnight Commander customization.
+# Copy the Midnight Commander configuration.
 mkdir -p "$PWD/home/r/.config/mc"
-cp /home/r/.config/mc/ini "$PWD/home/r/.config/mc/ini"
-cp /home/r/.config/mc/panels.ini "$PWD/home/r/.config/mc/panels.ini"
+cp /home/r/.config/mc/ini "$PWD/home/r/.config/mc"
+cp /home/r/.config/mc/panels.ini "$PWD/home/r/.config/mc"
+
+# Copy the sshd configuration.
+mkdir -p "$PWD/etc/ssh"
+sudo cat /etc/ssh/sshd_config > "$PWD/etc/ssh/sshd_config"
