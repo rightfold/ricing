@@ -6,3 +6,4 @@
 =media-libs/openimageio-1.8.7 ~amd64
 =sys-kernel/gentoo-sources-4.16.3 ~amd64
 =virtual/rust-1.23.0 ~amd64
+=x11-drivers/xf86-video-vboxvideo-1.0.0 ~amd64

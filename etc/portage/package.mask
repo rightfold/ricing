@@ -3,5 +3,9 @@
 <sys-process/procps-3.3.9-r2
 <dev-lang/perl-5.18.0
 
+# We need the version from the overlay, to inhibit module installation
+<app-emulation/virtualbox-guest-additions-5.2.10
+>app-emulation/virtualbox-guest-additions-5.2.10
+
 # Fuck this piece of shit
 net-libs/nodejs

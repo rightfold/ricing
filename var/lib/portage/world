@@ -39,6 +39,7 @@ sys-process/htop
 www-servers/nginx
 x11-apps/mesa-progs
 x11-base/xorg-drivers
+x11-drivers/xf86-video-vboxvideo
 x11-misc/compton
 x11-misc/dmenu
 x11-misc/i3status
