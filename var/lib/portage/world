@@ -27,6 +27,7 @@ media-gfx/feh
 media-libs/glfw
 media-libs/glm
 media-libs/imlib2
+net-libs/grpc
 net-misc/dhcpcd
 net-misc/netifrc
 net-print/cups

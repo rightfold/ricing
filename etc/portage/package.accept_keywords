@@ -4,6 +4,8 @@
 =dev-util/cargo-0.24.0 ~amd64
 =media-gfx/blender-2.79-r1 ~amd64
 =media-libs/openimageio-1.8.7 ~amd64
+=net-libs/grpc-1.11.0 ~amd64
 =sys-kernel/gentoo-sources-4.16.3 ~amd64
 =virtual/rust-1.23.0 ~amd64
 =x11-drivers/xf86-video-vboxvideo-1.0.0 ~amd64
+=www-servers/nginx-1.14.0 ~amd64

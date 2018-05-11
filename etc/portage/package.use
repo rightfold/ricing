@@ -3,6 +3,7 @@ app-admin/sysklogd logrotate
 app-editors/emacs X xft
 app-emacs/emacs-common-gentoo X
 app-emulation/virtualbox-guest-additions X
+app-text/poppler -jpeg -jpeg2k
 dev-db/postgresql uuid
 dev-lang/lua -deprecated
 dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres sockets xmlwriter
@@ -13,6 +14,7 @@ dev-vcs/git -gpg -perl -python
 media-libs/imlib2 X jpeg png
 media-libs/mesa -llvm
 net-misc/iputils -caps -filecaps
+net-print/cups-filters -foomatic -postscript
 sys-boot/grub:2 device-mapper -fonts -themes
 sys-devel/gdb -python -server
 sys-libs/ncurses tinfo
@@ -23,5 +25,3 @@ x11-libs/libxkbcommon X
 x11-libs/pango X
 x11-misc/compton dbus
 x11-terms/rxvt-unicode 256-color blink iso14755 unicode3 xft -font-styles -perl
-net-print/cups-filters -foomatic -postscript
-app-text/poppler -jpeg -jpeg2k
