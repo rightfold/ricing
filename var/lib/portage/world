@@ -14,10 +14,12 @@ app-text/tree
 dev-db/postgresql
 dev-lang/gnu-cobol
 dev-lang/php
+dev-lang/ruby
 dev-lang/rust
 dev-lang/sassc
 dev-libs/nss
 dev-php/composer
+dev-ruby/bundler
 dev-util/glade
 dev-util/meld
 dev-vcs/git
@@ -49,5 +51,5 @@ x11-misc/compton
 x11-misc/dmenu
 x11-misc/i3status
 x11-misc/xclip
-x11-terms/rxvt-unicode
+x11-terms/sakura
 x11-wm/i3-gaps

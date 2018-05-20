@@ -32,7 +32,6 @@ cp /var/lib/portage/world "$PWD/var/lib/portage"
 # Copy the X configuration.
 mkdir -p "$PWD/home/r"
 cp /home/r/.xinitrc "$PWD/home/r"
-cp /home/r/.Xresources "$PWD/home/r"
 
 # Copy the i3 configuration.
 mkdir -p "$PWD/home/r/.config/i3"
