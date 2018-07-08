@@ -5,6 +5,7 @@ app-emacs/emacs-common-gentoo X
 app-emulation/virtualbox-guest-additions X
 app-text/poppler -jpeg -jpeg2k
 dev-db/postgresql uuid
+dev-java/icedtea-bin -alsa -cups -gtk -webstart
 dev-lang/lua -deprecated
 dev-lang/php -acl -berkdb -gdbm -nls -opcache postgres sockets xmlwriter
 dev-libs/glib dbus
@@ -13,6 +14,7 @@ dev-php/composer git
 dev-vcs/git -gpg -perl -python
 media-libs/imlib2 X jpeg png
 media-libs/mesa -llvm
+media-sound/sox alsa
 net-misc/iputils -caps -filecaps
 net-print/cups-filters -foomatic -postscript
 sys-boot/grub:2 device-mapper -fonts -themes
@@ -25,3 +27,13 @@ x11-libs/libxkbcommon X
 x11-libs/pango X
 x11-misc/compton dbus
 x11-terms/rxvt-unicode 256-color blink iso14755 unicode3 xft -font-styles -perl
+# required by dev-python/sqlalchemy-1.2.4::gentoo[python_targets_python3_5]
+# required by dev-python/sphinxcontrib-websupport-1.0.1-r1::gentoo
+# required by dev-python/sphinx-1.6.5::gentoo[-test]
+# required by dev-python/sphinx (argument)
+>=dev-lang/python-3.5.5:3.5 sqlite
+# required by dev-python/sqlalchemy-1.2.4::gentoo[python_targets_python2_7]
+# required by dev-python/sphinxcontrib-websupport-1.0.1-r1::gentoo
+# required by dev-python/sphinx-1.6.5::gentoo[-test]
+# required by dev-python/sphinx (argument)
+>=dev-lang/python-2.7.14-r1:2.7 sqlite
